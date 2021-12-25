@@ -22,44 +22,44 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo logo link" lang="en" href="/">
             Web<span>Studio</span>
           </a>
           <ul class="header-list list">
             <li class="header-item">
-              <a class="link current" href="./index.html">Студия</a>
+              <a class="nav-link link current" href="./index.html">Студия</a>
             </li>
             <li class="header-item">
-              <a class="link" href="./portfolio.html">Портфолио</a>
+              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="header-item">
-              <a class="link" href="">Контакты</a>
+              <a class="nav-link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts list">
-          <li class="header-contacts-item">
-            <a class="header-contacts link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-contacts-item">
-            <a class="header-contacts link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        <div class="container-header-contacts">
+          <ul class="header-contacts list">
+            <li class="header-contacts-item">
+              <a class="header-contacts link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-contacts-item">
+              <a class="header-contacts link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
       <!--Герой-->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">
-            Эффективные решения <br />для вашего бизнеса
-          </h1>
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="button" type="button">Заказать услугу</button>
         </div>
       </section>
@@ -67,29 +67,29 @@
       <section class="our-advantage section">
         <div class="container">
           <h2 class="section-title visually-hidden">Наши преимущества</h2>
-          <ul class="list">
-            <li>
+          <ul class="list advantage-list">
+            <li class="advantage-item">
               <h3 class="advantage">Внимание к деталям</h3>
               <p class="we-the-best">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="advantage-item">
               <h3 class="advantage">Пунктуальность</h3>
               <p class="we-the-best">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="advantage-item">
               <h3 class="advantage">Планирование</h3>
               <p class="we-the-best">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="advantage-item">
               <h3 class="advantage">Современные технологии</h3>
               <p class="we-the-best">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -103,8 +103,8 @@
       <section class="we-can section">
         <div class="container">
           <h2 class="section-title title-we-can">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="we-can-list list">
+            <li class="we-can-item">
               <img
                 src="./images/box1.jpg"
                 alt="Разработка проекта"
@@ -112,7 +112,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="we-can-item">
               <img
                 src="./images/box2.jpg"
                 alt="Внедрение проекта"
@@ -120,7 +120,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="we-can-item">
               <img
                 src="./images/box3.jpg"
                 alt="Сопровождение проекта"
@@ -135,8 +135,8 @@
       <section class="section we">
         <div class="container">
           <h2 class="section-title title-we">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="we-list list">
+            <li class="we-item">
               <img
                 src="./images/foto1.jpg"
                 alt="Фото дизайнера"
@@ -146,7 +146,7 @@
               <h3 class="team">Игорь Демьяненко</h3>
               <p class="position">Product Designer</p>
             </li>
-            <li>
+            <li class="we-item">
               <img
                 src="./images/foto2.jpg"
                 alt="Фото разработчика"
@@ -156,7 +156,7 @@
               <h3 class="team">Ольга Репина</h3>
               <p class="position">Frontend Developer</p>
             </li>
-            <li>
+            <li class="we-item">
               <img
                 src="./images/foto3.jpg"
                 alt="Фото маркетолога"
@@ -166,7 +166,7 @@
               <h3 class="team">Николай Тарасов</h3>
               <p class="position">Marketing</p>
             </li>
-            <li>
+            <li class="we-item">
               <img
                 src="./images/foto4.jpg"
                 alt="Фото UI дизайнера"
