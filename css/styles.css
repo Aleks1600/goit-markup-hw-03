@@ -35,7 +35,9 @@ ul {
 button {
   cursor: pointer;
 }
-
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
@@ -58,7 +60,19 @@ button {
   overflow: hidden;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*--------styles header----------*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -98,6 +112,8 @@ button {
 /*--------styles hero--------*/
 .hero {
   background-color: var(--hero-footer-dg-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -107,6 +123,7 @@ button {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  margin-bottom: 30px;
 }
 .button {
   font-family: inherit;
@@ -129,6 +146,10 @@ button {
 }
 
 /*-------styles main-----*/
+.our-advantage {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -142,13 +163,25 @@ button {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--link-text-color);
+  margin-bottom: 10px;
 }
 .we-the-best {
   font-size: 14px;
   line-height: 1.71px;
 }
+.we-can {
+  padding-bottom: 94px;
+}
+.title-we-can {
+  margin-bottom: 50px;
+}
 .section.we {
   background-color: var(--section-dg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.title-we {
+  margin-bottom: 50px;
 }
 
 .team {
@@ -199,9 +232,15 @@ button {
 /*------footer------*/
 .footer {
   background-color: var(--hero-footer-dg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo > span {
   color: var(--secondary-text-color);
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer-link {
