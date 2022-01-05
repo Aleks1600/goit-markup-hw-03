@@ -72,10 +72,12 @@ img {
 
 /*--------styles header----------*/
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -120,11 +122,9 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.container-header-contacts {
-  margin-left: auto;
-}
 .header-contacts.list {
   display: flex;
+  margin-left: auto;
 }
 .header-contacts-item:not(:last-child) {
   margin-right: 50px;
@@ -256,13 +256,10 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .we-list .we-item:not(:last-child) {
-  display: block;
   width: 270px;
   margin-right: 30px;
-}
-.we-list .we-item:last-child {
-  display: block;
 }
 
 .container-card {
@@ -284,7 +281,7 @@ img {
 }
 
 /*---------portfolio-section------------*/
-.container-portfolio {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -372,9 +369,10 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .footer-link {
   font-style: normal;
   font-size: 14px;
